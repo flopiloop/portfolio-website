@@ -1,0 +1,87 @@
+baseURL: "yanisstentzel.github.io" 
+title: Yanis STENTZEL
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Skills
+          url: skills/
+          weight: 5 
+        - name: Projects
+          url: projects/
+          weight: 2
+ 
+
+params:
+    description: "Undergraduate Student @UGA & @IUT2 Grenoble"
+    author: Yanis Stentzel
+    DateFormat: "January 2006"
+    hideFooter: false
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    defaultTheme: auto 
+    disableThemeToggle: false 
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Yanis STENTZEL
+          subtitle: "Undergraduate Student @UGA & @IUT2 Grenoble"
+          imageUrl: "YanisSTENTZELPhoto.jpg"
+          imageWidth: 220 
+          imageHeight: 220 
+          buttons:
+            - name: "CV (FR)"
+              url: "Resume_Yanis_French.pdf"
+            - name: "CV (EN)"
+              url: "Resume_Yanis.pdf"
+            - name: Projects
+              url: "projects/"
+            - name: Skills
+              url: "skills/"
+
+
+    socialIcons:
+        - name: Email
+          url: mailto:yanistentzl@icloud.com
+        - name: LinkedIn
+          url: https://linkedin.com/in/yanis-stentzel
+        - name: GitHub
+          url: https://github.com/yanisstentzel
+        - name: Kaggle
+          url: https://www.kaggle.com/yanisstentzel
+
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Yanis STENTZEL"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
