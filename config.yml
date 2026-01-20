@@ -62,7 +62,7 @@ params:
 
     socialIcons:
         - name: Email
-          url: jonathan.wild.2005@gmail.com
+          url: mailto:jonathan.wild.2005@gmail.com
         - name: LinkedIn
           url: https://www.linkedin.com/in/jonathan-wild-b7986434a/
         - name: GitHub
