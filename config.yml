@@ -1,5 +1,5 @@
-baseURL: "yanisstentzel.github.io" 
-title: Yanis STENTZEL
+baseURL: "flopiloop.github.io" 
+title: Jonathan WILD
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -11,17 +11,17 @@ taxonomies:
 
 menu:
     main:
-        - name: Skills
-          url: skills/
+        - name: Compétences
+          url: Compétences/
           weight: 5 
-        - name: Projects
-          url: projects/
+        - name: Projets
+          url: projets/
           weight: 2
  
 
 params:
-    description: "Undergraduate Student @UGA & @IUT2 Grenoble"
-    author: Yanis Stentzel
+    description: "Etudiant @UGA & @IUT2 Grenoble"
+    author: WILD Jonathan
     DateFormat: "January 2006"
     hideFooter: false
     ShowShareButtons: false
@@ -29,7 +29,7 @@ params:
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
     defaultTheme: auto 
-    disableThemeToggle: false 
+    disableThemeToggle: false
     ShowPostNavLinks: false
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
@@ -44,31 +44,29 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Yanis STENTZEL
-          subtitle: "Undergraduate Student @UGA & @IUT2 Grenoble"
-          imageUrl: "YanisSTENTZELPhoto.jpg"
+          title: Jonathan WILD
+          subtitle: "Etudiant @UGA & @IUT2 Grenoble"
+          imageUrl: "pp_website.png"
           imageWidth: 220 
           imageHeight: 220 
           buttons:
             - name: "CV (FR)"
-              url: "Resume_Yanis_French.pdf"
+              url: "CV(FR).pdf"
             - name: "CV (EN)"
-              url: "Resume_Yanis.pdf"
-            - name: Projects
-              url: "projects/"
-            - name: Skills
-              url: "skills/"
+              url: "CV(ENG).pdf"
+            - name: Projets / Projects
+              url: "projets/"
+            - name: Compétences / Skills
+              url: "competences/"
 
 
     socialIcons:
         - name: Email
-          url: mailto:yanistentzl@icloud.com
+          url: jonathan.wild.2005@gmail.com
         - name: LinkedIn
-          url: https://linkedin.com/in/yanis-stentzel
+          url: https://www.linkedin.com/in/jonathan-wild-b7986434a/
         - name: GitHub
-          url: https://github.com/yanisstentzel
-        - name: Kaggle
-          url: https://www.kaggle.com/yanisstentzel
+          url: https://github.com/flopiloop
 
 
     assets:
@@ -77,8 +75,8 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Yanis STENTZEL"
-      icon: favicon.ico
+      text: "Jonathan WILD"
+      icon: icon.png
       iconHeight: 18
 
 markup:

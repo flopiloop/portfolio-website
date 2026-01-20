@@ -1,0 +1,5 @@
+{
+    "claudeCode.allowDangerouslySkipPermissions": true,
+    "claudeCode.disableLoginPrompt": true,
+    "claudeCode.useCtrlEnterToSend": true
+}
