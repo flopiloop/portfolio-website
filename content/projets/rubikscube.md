@@ -8,7 +8,7 @@ aliases:
     - /rubikscube.html
 tags: []
 author: "Jonathan Wild, Projet Académique @IUT2 Grenoble"
-summary: "Plateforme web d'entraînement pour maîtriser le Rubik's Cube avec la méthode Fridrich. Comprend un simulateur 3D interactif pour pratiquer les techniques de résolution et un guide de référence complet des 78 algorithmes OLL et PLL."
+summary: "Plateforme web d'entraînement pour maîtriser le Rubik's Cube avec la méthode Fridrich. Comprend un simulateur 2D interactif pour pratiquer les techniques de résolution et un guide de référence complet des 78 algorithmes OLL et PLL."
 cover:
     image: "projects/rubikscube.png"
     alt: "Simulateur Rubik's Cube"
@@ -21,7 +21,7 @@ cover:
 ##### Résumé
 
 Ce projet propose un environnement d'apprentissage complet pour les passionnés de speedcubing. L'application combine deux composants principaux :
-1. **Simulateur 3D Interactif** : Un Rubik's Cube virtuel entièrement fonctionnel avec le schéma de couleurs standard WCA, supportant les 6 mouvements de base (F, R, U, L, D, B), la rotation de la vue, le mélange aléatoire et la réinitialisation.
+1. **Simulateur 2D Interactif** : Un Rubik's Cube virtuel entièrement fonctionnel avec le schéma de couleurs standard WCA, supportant les 6 mouvements de base (F, R, U, L, D, B), la rotation de la vue, le mélange aléatoire et la réinitialisation.
 2. **Bibliothèque d'Algorithmes** : Un catalogue complet des 78 algorithmes de la méthode Fridrich (CFOP), incluant 57 cas OLL (Orientation de la Dernière Couche) et 21 cas PLL (Permutation de la Dernière Couche), organisés par type de motif.
 
 Le simulateur permet aux utilisateurs de pratiquer des séquences de résolution dans un environnement réaliste, tandis que la section d'apprentissage fournit un accès instantané aux solutions algorithmiques pour toute configuration de la dernière couche.
@@ -30,14 +30,14 @@ Le simulateur permet aux utilisateurs de pratiquer des séquences de résolution
 
 ##### Fonctionnalités Principales
 
-> **Simulateur de Cube 3D**
+> **Simulateur de Cube 2D**
 >
 > * Représentation visuelle du cube avec faces codées par couleur (Vert-Avant, Rouge-Droite, Orange-Gauche, Bleu-Arrière, Blanc-Haut, Jaune-Bas)
 > * Six mouvements de rotation standard (F, R, U, L, D, B)
 > * Contrôle de vue dynamique pour inspecter toutes les faces (navigation Gauche, Droite, Haut, Bas)
 > * Mélangeur standard WCA (15 mouvements aléatoires)
 > * Réinitialisation en un clic vers l'état résolu
-> * Interface épurée et intuitive construite avec HTML5 Canvas
+> * Interface épurée et intuitive 
 
 > **Plateforme d'Apprentissage**
 >
@@ -48,18 +48,6 @@ Le simulateur permet aux utilisateurs de pratiquer des séquences de résolution
 > * Sections extensibles pour une navigation facile
 > * Notation algorithmique utilisant la terminologie standard du cubing
 
----
-
-##### Implémentation Technique
-
-* **Frontend** : HTML5, CSS3 et JavaScript vanilla pur
-* **Rendu** : API HTML5 Canvas pour la visualisation des faces du cube
-* **Gestion d'État** : Logique JavaScript personnalisée pour suivre l'état du cube sur toutes les faces
-* **UI/UX** : Design responsive avec disposition organisée des boutons et hiérarchie visuelle claire
-* **Conformité aux Standards** : Schéma de couleurs et notation WCA (World Cube Association)
-
----
-
 ##### Démo en Direct & Code Source
 
 + [Application Web en Direct](https://flopiloop.github.io/rubikscube/) (GitHub Pages)
@@ -69,7 +57,7 @@ Le simulateur permet aux utilisateurs de pratiquer des séquences de résolution
 
 ##### Contexte du Projet
 
-Ce projet a été développé dans le cadre du cursus **BUT Informatique** à l'**IUT2 Grenoble** pour démontrer la maîtrise de :
+Ce projet a été développé dans le cadre du cursus **BUT Sciences des données** à l'**IUT2 Grenoble** pour démontrer la maîtrise de :
 * Développement web front-end et conception d'UI interactive
 * Pensée algorithmique et gestion d'état
 * Organisation de contenu éducatif

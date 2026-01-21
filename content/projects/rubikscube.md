@@ -6,7 +6,7 @@ show_date: false
 url: /en/rubiks-cube/
 tags: []
 author: "Jonathan Wild, Academic Project @IUT2 Grenoble"
-summary: "A comprehensive web-based training platform for mastering the Rubik's Cube using the Fridrich method. Features a 3D interactive simulator for practicing solving techniques and a complete reference guide for all 78 OLL and PLL algorithms."
+summary: "A comprehensive web-based training platform for mastering the Rubik's Cube using the Fridrich method. Features a 2D interactive simulator for practicing solving techniques and a complete reference guide for all 78 OLL and PLL algorithms."
 cover:
     image: "projects/rubikscube.png"
     alt: "Rubik's Cube Simulator"
@@ -19,7 +19,7 @@ cover:
 ##### Abstract
 
 This project provides a complete learning environment for speedcubing enthusiasts. The application combines two main components:
-1. **Interactive 3D Simulator**: A fully functional virtual Rubik's Cube with standard WCA color scheme, supporting all 6 basic moves (F, R, U, L, D, B), view rotation, random scrambling, and reset functionality.
+1. **Interactive 2D Simulator**: A fully functional virtual Rubik's Cube with standard WCA color scheme, supporting all 6 basic moves (F, R, U, L, D, B), view rotation, random scrambling, and reset functionality.
 2. **Algorithm Reference Library**: A comprehensive catalog of all 78 algorithms from the advanced Fridrich method (CFOP), including 57 OLL (Orientation of Last Layer) cases and 21 PLL (Permutation of Last Layer) cases, organized by pattern type.
 
 The simulator allows users to practice solving sequences in a realistic environment, while the learning section provides instant access to algorithm solutions for any last-layer configuration encountered during solving.
@@ -28,7 +28,7 @@ The simulator allows users to practice solving sequences in a realistic environm
 
 ##### Key Features
 
-> **3D Cube Simulator**
+> **2D Cube Simulator**
 >
 > * Visual representation of the cube with color-coded faces (Green-Front, Red-Right, Orange-Left, Blue-Back, White-Top, Yellow-Bottom)
 > * Six standard rotation moves (F, R, U, L, D, B)
@@ -48,16 +48,6 @@ The simulator allows users to practice solving sequences in a realistic environm
 
 ---
 
-##### Technical Implementation
-
-* **Frontend**: Pure HTML5, CSS3, and vanilla JavaScript
-* **Rendering**: HTML5 Canvas API for cube face visualization
-* **State Management**: Custom JavaScript logic for tracking cube state across all faces
-* **UI/UX**: Responsive design with organized button layouts and clear visual hierarchy
-* **Standards Compliance**: WCA (World Cube Association) color scheme and notation
-
----
-
 ##### Live Demo & Source Code
 
 + [Live Web Application](https://flopiloop.github.io/rubikscube/) (GitHub Pages)
@@ -67,7 +57,7 @@ The simulator allows users to practice solving sequences in a realistic environm
 
 ##### Project Context
 
-This project was developed as part of the **BUT Informatique** curriculum at **IUT2 Grenoble** to demonstrate proficiency in:
+This project was developed as part of the **BUT Data-science** curriculum at **IUT2 Grenoble** to demonstrate proficiency in:
 * Front-end web development and interactive UI design
 * Algorithmic thinking and state management
 * Educational content organization
