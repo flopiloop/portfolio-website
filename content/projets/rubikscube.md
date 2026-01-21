@@ -1,80 +1,80 @@
 ---
-title: "Rubik's Cube Trainer – Interactive Simulator & Algorithm Learning Platform"
+title: "Rubik's Cube - Simulateur & Guide d'Algorithmes"
 date: 2025-12-01
-order: 4
+order: 1
 show_date: false
 url: /rubiks-cube/
 aliases:
     - /rubikscube.html
 tags: []
-author: "Jonathan Wild, Academic Project @IUT2 Grenoble"
-summary: "A comprehensive web-based training platform for mastering the Rubik's Cube using the Fridrich method. Features a 3D interactive simulator for practicing solving techniques and a complete reference guide for all 78 OLL and PLL algorithms."
+author: "Jonathan Wild, Projet Académique @IUT2 Grenoble"
+summary: "Plateforme web d'entraînement pour maîtriser le Rubik's Cube avec la méthode Fridrich. Comprend un simulateur 3D interactif pour pratiquer les techniques de résolution et un guide de référence complet des 78 algorithmes OLL et PLL."
 cover:
-    image: "/projects/rubikscube.png#center"
-    alt: "Rubik's Cube Simulator"
-    relative: true
+    image: "projects/rubikscube.png"
+    alt: "Simulateur Rubik's Cube"
+    relative: false
 
 ---
 
 ---
 
-##### Abstract
+##### Résumé
 
-This project provides a complete learning environment for speedcubing enthusiasts. The application combines two main components:
-1. **Interactive 3D Simulator**: A fully functional virtual Rubik's Cube with standard WCA color scheme, supporting all 6 basic moves (F, R, U, L, D, B), view rotation, random scrambling, and reset functionality.
-2. **Algorithm Reference Library**: A comprehensive catalog of all 78 algorithms from the advanced Fridrich method (CFOP), including 57 OLL (Orientation of Last Layer) cases and 21 PLL (Permutation of Last Layer) cases, organized by pattern type.
+Ce projet propose un environnement d'apprentissage complet pour les passionnés de speedcubing. L'application combine deux composants principaux :
+1. **Simulateur 3D Interactif** : Un Rubik's Cube virtuel entièrement fonctionnel avec le schéma de couleurs standard WCA, supportant les 6 mouvements de base (F, R, U, L, D, B), la rotation de la vue, le mélange aléatoire et la réinitialisation.
+2. **Bibliothèque d'Algorithmes** : Un catalogue complet des 78 algorithmes de la méthode Fridrich (CFOP), incluant 57 cas OLL (Orientation de la Dernière Couche) et 21 cas PLL (Permutation de la Dernière Couche), organisés par type de motif.
 
-The simulator allows users to practice solving sequences in a realistic environment, while the learning section provides instant access to algorithm solutions for any last-layer configuration encountered during solving.
+Le simulateur permet aux utilisateurs de pratiquer des séquences de résolution dans un environnement réaliste, tandis que la section d'apprentissage fournit un accès instantané aux solutions algorithmiques pour toute configuration de la dernière couche.
 
 ---
 
-##### Key Features
+##### Fonctionnalités Principales
 
-> **3D Cube Simulator**
+> **Simulateur de Cube 3D**
 >
-> * Visual representation of the cube with color-coded faces (Green-Front, Red-Right, Orange-Left, Blue-Back, White-Top, Yellow-Bottom)
-> * Six standard rotation moves (F, R, U, L, D, B)
-> * Dynamic view control to inspect all faces (Left, Right, Up, Down navigation)
-> * WCA-standard scrambler (15 random moves)
-> * One-click reset to solved state
-> * Clean, intuitive interface built with HTML5 Canvas
+> * Représentation visuelle du cube avec faces codées par couleur (Vert-Avant, Rouge-Droite, Orange-Gauche, Bleu-Arrière, Blanc-Haut, Jaune-Bas)
+> * Six mouvements de rotation standard (F, R, U, L, D, B)
+> * Contrôle de vue dynamique pour inspecter toutes les faces (navigation Gauche, Droite, Haut, Bas)
+> * Mélangeur standard WCA (15 mouvements aléatoires)
+> * Réinitialisation en un clic vers l'état résolu
+> * Interface épurée et intuitive construite avec HTML5 Canvas
 
-> **Learning Platform**
+> **Plateforme d'Apprentissage**
 >
-> * Complete OLL algorithm set (57 cases) categorized by pattern:
->   - Point (7), Line (4), Cross (7), 4 Corners (2), Various shapes (┘, L, Ꞁ, ┌, C, P, T, W, Z)
-> * Complete PLL algorithm set (21 cases) categorized by permutation type:
->   - A, U, H, Z, T, J, R, F, V, Y, N, G, E permutations
-> * Expandable sections for easy navigation
-> * Algorithm notation using standard cubing terminology
+> * Ensemble complet d'algorithmes OLL (57 cas) catégorisés par motif :
+>   - Point (7), Ligne (4), Croix (7), 4 Coins (2), Formes variées (┘, L, Ꞁ, ┌, C, P, T, W, Z)
+> * Ensemble complet d'algorithmes PLL (21 cas) catégorisés par type de permutation :
+>   - Permutations A, U, H, Z, T, J, R, F, V, Y, N, G, E
+> * Sections extensibles pour une navigation facile
+> * Notation algorithmique utilisant la terminologie standard du cubing
 
 ---
 
-##### Technical Implementation
+##### Implémentation Technique
 
-* **Frontend**: Pure HTML5, CSS3, and vanilla JavaScript
-* **Rendering**: HTML5 Canvas API for cube face visualization
-* **State Management**: Custom JavaScript logic for tracking cube state across all faces
-* **UI/UX**: Responsive design with organized button layouts and clear visual hierarchy
-* **Standards Compliance**: WCA (World Cube Association) color scheme and notation
-
----
-
-##### Live Demo & Source Code
-
-+ [Live Web Application](https://flopiloop.github.io/rubikscube/) (GitHub Pages)
-+ [GitHub Repository](https://github.com/flopiloop/rubikscube)
+* **Frontend** : HTML5, CSS3 et JavaScript vanilla pur
+* **Rendu** : API HTML5 Canvas pour la visualisation des faces du cube
+* **Gestion d'État** : Logique JavaScript personnalisée pour suivre l'état du cube sur toutes les faces
+* **UI/UX** : Design responsive avec disposition organisée des boutons et hiérarchie visuelle claire
+* **Conformité aux Standards** : Schéma de couleurs et notation WCA (World Cube Association)
 
 ---
 
-##### Project Context
+##### Démo en Direct & Code Source
 
-This project was developed as part of the **BUT Informatique** curriculum at **IUT2 Grenoble** to demonstrate proficiency in:
-* Front-end web development and interactive UI design
-* Algorithmic thinking and state management
-* Educational content organization
-* JavaScript Canvas manipulation
++ [Application Web en Direct](https://flopiloop.github.io/rubikscube/) (GitHub Pages)
++ [Dépôt GitHub](https://github.com/flopiloop/rubikscube)
 
-The application serves both beginners learning the Fridrich method and intermediate solvers looking for a quick algorithm reference during practice sessions.
+---
+
+##### Contexte du Projet
+
+Ce projet a été développé dans le cadre du cursus **BUT Informatique** à l'**IUT2 Grenoble** pour démontrer la maîtrise de :
+* Développement web front-end et conception d'UI interactive
+* Pensée algorithmique et gestion d'état
+* Organisation de contenu éducatif
+* Manipulation de Canvas JavaScript
+
+L'application s'adresse à la fois aux débutants apprenant la méthode Fridrich et aux résolveurs intermédiaires cherchant une référence rapide d'algorithmes pendant leurs sessions de pratique.
 
 ---
