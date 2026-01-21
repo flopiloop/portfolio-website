@@ -5,11 +5,15 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
-    background: var(--code-bg);
+    background: var(--theme);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .nav a {
     display: block;
+    transition: var(--transition);
 }
 
 .logo,
@@ -25,6 +29,7 @@
 .logo a {
     font-size: var(--headersize);
     font-weight: var(--semibold);
+    letter-spacing: -0.02em;
 }
 
 .logo a img, .logo a svg {
@@ -32,13 +37,20 @@
     vertical-align: middle;
     pointer-events: none;
     transform: translate(0, -10%);
-    border-radius: 6px;
-    margin-inline-end: 8px;
+    border-radius: 8px;
+    margin-inline-end: 10px;
 }
 
 button#theme-toggle {
-    font-size: 20px;
+    font-size: 18px;
     margin: auto 4px;
+    padding: 8px;
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+button#theme-toggle:hover {
+    background: var(--tertiary);
 }
 
 body.dark #moon {
@@ -58,15 +70,24 @@ body:not(.dark) #sun {
 }
 
 #menu li + li {
-    margin-inline-start: var(--gap);
+    margin-inline-start: calc(var(--gap) + 4px);
 }
 
 #menu a {
     font-size: var(--headersize);
-    font-weight: 400;
+    font-weight: 500;
+    color: var(--secondary);
+    transition: var(--transition);
+    padding: 4px 0;
+}
+
+#menu a:hover {
+    color: var(--primary);
 }
 
 #menu .active {
+    color: var(--primary);
+    font-weight: var(--semibold);
     border-bottom: 2px solid var(--darkcolor);
 }
 
@@ -84,8 +105,15 @@ body:not(.dark) #sun {
 
 .lang-switch a {
     margin: auto 3px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: var(--transition);
+}
+
+.lang-switch a:hover {
+    background: var(--tertiary);
 }
 
 .logo-switches {

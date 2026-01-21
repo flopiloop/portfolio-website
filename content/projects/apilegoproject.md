@@ -45,6 +45,14 @@ This academic project, developed in collaboration with **[Yanis stentzel](https:
 
 ---
 
+##### GDPR Compliance
+
+This project was developed in compliance with the General Data Protection Regulation (GDPR). Special attention was given to the collection and processing of data from the Brickset API, ensuring ethical use and adherence to European regulations.
+
++ [View GDPR Compliance Document (PDF, in French)](/RGPD.pdf)
+
+---
+
 
 ##### Sources
 

@@ -47,6 +47,14 @@ Ce projet académique, développé en collaboration avec **[Yanis stentzel](http
 
 ---
 
+##### Conformité RGPD
+
+Ce projet a été développé dans le respect du Règlement Général sur la Protection des Données (RGPD). Une attention particulière a été portée à la collecte et au traitement des données issues de l'API Brickset, garantissant une utilisation éthique et conforme aux réglementations européennes.
+
++ [Consulter le document de conformité RGPD (PDF)](/RGPD.pdf)
+
+---
+
 
 ##### Sources
 
