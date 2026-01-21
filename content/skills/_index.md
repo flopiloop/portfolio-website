@@ -13,20 +13,20 @@ description: "logos of skills and else."
 <div>
 
 <style>
-    #skills-grid {
+    #skills-grid-prog {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         grid-gap: 5px;
     }
 
-    #skills-grid > div {
+    #skills-grid-prog > div {
         padding: .5em;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
 
-    #skills-grid > div > img {
+    #skills-grid-prog > div > img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -34,7 +34,7 @@ description: "logos of skills and else."
     }
 </style>
 
-<div id="skills-grid">
+<div id="skills-grid-prog">
     <div>
         <img class="logo" src="/portfolio-website/skills/python.svg" alt="Python">
         <div class="title">Python</div>
@@ -56,16 +56,16 @@ description: "logos of skills and else."
         <div class="title">NumPy</div>
     </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/matplotlib.svg" alt="Matploltlib">
+        <img class="logo" src="/portfolio-website/skills/matplotlib.svg" alt="Matplotlib">
         <div class="title">Matplotlib</div>
     </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/VBA.png" alt="Virtual Basic">
-        <div class="title">Virtual Basic</div>
+        <img class="logo" src="/portfolio-website/skills/VBA.png" alt="VBA">
+        <div class="title">VBA</div>
     </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/ACCES.png" alt="ACCES">
-        <div class="title">ACCES</div>
+        <img class="logo" src="/portfolio-website/skills/ACCES.png" alt="Access">
+        <div class="title">Access</div>
     </div>
     <div>
         <img class="logo" src="/portfolio-website/skills/HTML_logo.png" alt="HTML">
@@ -96,20 +96,20 @@ description: "logos of skills and else."
 <div>
 
 <style>
-    #skills-grid {
+    #skills-grid-dev {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         grid-gap: 5px;
     }
 
-    #skills-grid > div {
+    #skills-grid-dev > div {
         padding: .5em;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
 
-    #skills-grid > div > img {
+    #skills-grid-dev > div > img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -117,11 +117,11 @@ description: "logos of skills and else."
     }
 </style>
 
-<div id="skills-grid">
+<div id="skills-grid-dev">
     <div>
         <img class="logo" src="/portfolio-website/skills/git.svg" alt="Git">
         <div class="title">Git</div>
-    </div>  
+    </div>
     <div>
         <img class="logo" src="/portfolio-website/skills/VScode.png" alt="VSCode">
         <div class="title">VSCode</div>
@@ -131,14 +131,15 @@ description: "logos of skills and else."
         <div class="title">Jupyter</div>
     </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/Spyder.png" alt="Spyder">
+        <img class="logo" src="/portfolio-website/skills/spyder.png" alt="Spyder">
         <div class="title">Spyder</div>
     </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/R studio.png" alt="R studio">
-        <div class="title">R studio</div>
+        <img class="logo" src="/portfolio-website/skills/R studio.png" alt="R Studio">
+        <div class="title">R Studio</div>
+    </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/excel.png" alt="Excel">
+        <img class="logo" src="/portfolio-website/skills/excel.jpg" alt="Excel">
         <div class="title">Excel</div>
     </div>
     <div>
@@ -147,25 +148,27 @@ description: "logos of skills and else."
     </div>
 </div>
 
-### Personnal Activities
+</div>
+
+### Personal Activities
 
 <div>
 
 <style>
-    #skills-grid {
+    #skills-grid-perso {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         grid-gap: 5px;
     }
 
-    #skills-grid > div {
+    #skills-grid-perso > div {
         padding: .5em;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
 
-    #skills-grid > div > img {
+    #skills-grid-perso > div > img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -173,21 +176,23 @@ description: "logos of skills and else."
     }
 </style>
 
-<div id="skills-grid">
+<div id="skills-grid-perso">
     <div>
-        <img class="logo" src="/portfolio-website/skills/plongée.png" alt="scuba diving">
-        <div class="title">scuba diving</div>
-    </div>  
+        <img class="logo" src="/portfolio-website/skills/plongée.png" alt="Scuba Diving">
+        <div class="title">Scuba Diving</div>
+    </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/SGDF.png" alt="scouting">
-        <div class="title">scouting</div>
+        <img class="logo" src="/portfolio-website/skills/SGDF.png" alt="Scouting">
+        <div class="title">Scouting</div>
     </div>
     <div>
         <img class="logo" src="/portfolio-website/skills/SKI.png" alt="Skiing">
         <div class="title">Skiing</div>
     </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/APNEE.png" alt="apnea">
-        <div class="title">apnea</div>
+        <img class="logo" src="/portfolio-website/skills/APNEE.png" alt="Apnea">
+        <div class="title">Apnea</div>
     </div>
+</div>
+
 </div>
