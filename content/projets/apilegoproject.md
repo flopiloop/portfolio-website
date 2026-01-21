@@ -31,12 +31,12 @@ Ce projet académique, développé en collaboration avec **[Jonathan Wild](https
 
 > **Interface Terminal**
 >
-> ![Menu Terminal](projects/lego-terminal.png)
+> ![Menu Terminal](/portfolio-website/projects/lego-terminal.png)
 > *Le menu terminal interactif utilisé pour la gestion de collection.*
 
 > **Rendu de Galerie Web**
 >
-> ![Rendu Web](projects/lego-web-render.png)
+> ![Rendu Web](/portfolio-website/projects/lego-web-render.png)
 > *La sortie web finale générée automatiquement depuis les données de collection.*
 
 ---
