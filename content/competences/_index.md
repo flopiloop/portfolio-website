@@ -36,39 +36,39 @@ description: "logos de compétences et autres."
 
 <div id="skills-grid">
     <div>
-        <img class="logo" src="skills/python.svg" alt="Python Language">
+        <img class="logo" src="/portfolio-website/skills/python.svg" alt="Python Language">
         <div class="title">Python</div>
     </div>
     <div>
-        <img class="logo" src="skills/pandas.svg" alt="Pandas">
+        <img class="logo" src="/portfolio-website/skills/pandas.svg" alt="Pandas">
         <div class="title">Pandas</div>
     </div>
     <div>
-        <img class="logo" src="skills/mysql.svg" alt="MySQL">
+        <img class="logo" src="/portfolio-website/skills/mysql.svg" alt="MySQL">
         <div class="title">MySQL</div>
     </div>
     <div>
-        <img class="logo" src="skills/postgre.svg" alt="PostgreSQL">
+        <img class="logo" src="/portfolio-website/skills/postgre.svg" alt="PostgreSQL">
         <div class="title">PostgreSQL</div>
     </div>
     <div>
-        <img class="logo" src="skills/R.svg" alt="R Language">
+        <img class="logo" src="/portfolio-website/skills/R.svg" alt="R Language">
         <div class="title">R</div>
     </div>
     <div>
-        <img class="logo" src="skills/numpy.svg" alt="NumPy">
+        <img class="logo" src="/portfolio-website/skills/numpy.svg" alt="NumPy">
         <div class="title">NumPy</div>
     </div>
      <div>
-        <img class="logo" src="skills/shell.svg" alt="Shell">
+        <img class="logo" src="/portfolio-website/skills/shell.svg" alt="Shell">
         <div class="title">Shell</div>
     </div>
      <div>
-        <img class="logo" src="skills/matplotlib.svg" alt="Matploltlib">
+        <img class="logo" src="/portfolio-website/skills/matplotlib.svg" alt="Matploltlib">
         <div class="title">Matplotlib</div>
     </div>
     <div>
-        <img class="logo" src="skills/powerbi.png" alt="PowerBI">
+        <img class="logo" src="/portfolio-website/skills/powerbi.png" alt="PowerBI">
         <div class="title">PowerBI</div>
     </div>
 </div>
@@ -103,15 +103,15 @@ description: "logos de compétences et autres."
 
 <div id="skills-grid">
     <div>
-        <img class="logo" src="skills/git.svg" alt="Git">
+        <img class="logo" src="/portfolio-website/skills/git.svg" alt="Git">
         <div class="title">Git</div>
     </div>  
     <div>
-        <img class="logo" src="skills/docker.svg" alt="Docker">
+        <img class="logo" src="/portfolio-website/skills/docker.svg" alt="Docker">
         <div class="title">Docker</div>
     </div>
     <div>
-        <img class="logo" src="skills/jupyter.svg" alt="Jupyter">
+        <img class="logo" src="/portfolio-website/skills/jupyter.svg" alt="Jupyter">
         <div class="title">Jupyter</div>
     </div>
 </div>
@@ -144,11 +144,11 @@ description: "logos de compétences et autres."
 
 <div id="skills-grid">
     <div>
-        <img class="logo" src="skills/chess.png" alt="Chess">
+        <img class="logo" src="/portfolio-website/skills/chess.png" alt="Chess">
         <div class="title">Chess</div>
     </div>  
     <div>
-        <img class="logo" src="skills/running.png" alt="Running">
+        <img class="logo" src="/portfolio-website/skills/running.png" alt="Running">
         <div class="title">Running</div>
     </div>
 </div>
