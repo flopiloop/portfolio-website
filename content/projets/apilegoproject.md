@@ -43,7 +43,7 @@ Ce projet académique, développé en collaboration avec **[Yanis stentzel](http
 
 ##### Liens
 
-+ [Dépôt GitHub](https://github.com/yanisstentzel/academicprojects/tree/main/Programming/Lego%20Sets%20Collector%20%E2%80%93%20API%20Integration)
++ [Dépôt GitHub](https://github.com/flopiloop/API-Brickset)
 
 ---
 
