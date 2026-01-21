@@ -10,7 +10,7 @@ tags: ["Statistics", "Time Series", "Prediction", "Astronomy"]
 author: "Jonathan Wild / Academic Project @IUT2 Grenoble"
 summary: "Mathematical and statistical study of Earth-Asteroid distance through time series decomposition and Holt-Winters predictive modeling."
 cover:
-    image: "projects/asteroid-cover.png"
+    image: "projects/Graphique.png"
     alt: "Asteroid 1221 Orbit"
     relative: false
 

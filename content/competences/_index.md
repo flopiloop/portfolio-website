@@ -89,6 +89,10 @@ description: "logos de compétences et autres."
         <img class="logo" src="/portfolio-website/skills/Matlab.png" alt="Matlab">
         <div class="title">Matlab</div>
     </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/KNIME.png" alt="KNIME">
+        <div class="title">KNIME</div>
+    </div>
 </div>
 
 </div>

@@ -10,7 +10,7 @@ tags: ["Statistiques", "Séries Temporelles", "Prédiction", "Astronomie"]
 author: "Jonathan Wild / Projet Académique @IUT2 Grenoble"
 summary: "Étude mathématique et statistique de la distance Terre-Astéroïde via la décomposition de séries temporelles et la modélisation prédictive Holt-Winters."
 cover:
-    image: "projects/asteroid-cover.png"
+    image: "projects/Graphique.png"
     alt: "Orbite Astéroïde 1221"
     relative: false
 
@@ -20,7 +20,7 @@ cover:
 
 ##### Résumé
 
-Ce projet d'analyse de données (SAE 3.03) explore l'évolution de la distance entre la Terre et l'astéroïde (1221) Amor. Passionné par l'espace, j'ai cherché à démontrer comment une décomposition statistique peut prédire des mouvements célestes complexes malgré une orbite considérée comme instable.
+Ce projet d'analyse de données (SAE 3.03) explore l'évolution de la distance entre la Terre et l'astéroïde (1221) Amor. Passionné par l'espace, j'ai cherché à démontrer comment un modèle statistique peut prédire des mouvements célestes malgré une orbite considérée comme instable.
 
 L'étude s'articule autour de trois axes d'analyse :
 1. **Décomposition de Série Temporelle** : Identification d'un modèle additif combinant une tendance globale quasi-stationnaire et une composante saisonnière marquée de 8 ans (cycle de révolution).
