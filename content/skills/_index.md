@@ -36,7 +36,7 @@ description: "logos of skills and else."
 
 <div id="skills-grid">
     <div>
-        <img class="logo" src="/portfolio-website/skills/python.svg" alt="Python Language">
+        <img class="logo" src="/portfolio-website/skills/python.svg" alt="Python">
         <div class="title">Python</div>
     </div>
     <div>
@@ -48,10 +48,6 @@ description: "logos of skills and else."
         <div class="title">MySQL</div>
     </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/postgre.svg" alt="PostgreSQL">
-        <div class="title">PostgreSQL</div>
-    </div>
-    <div>
         <img class="logo" src="/portfolio-website/skills/R.svg" alt="R Language">
         <div class="title">R</div>
     </div>
@@ -59,17 +55,37 @@ description: "logos of skills and else."
         <img class="logo" src="/portfolio-website/skills/numpy.svg" alt="NumPy">
         <div class="title">NumPy</div>
     </div>
-     <div>
-        <img class="logo" src="/portfolio-website/skills/shell.svg" alt="Shell">
-        <div class="title">Shell</div>
-    </div>
-     <div>
+    <div>
         <img class="logo" src="/portfolio-website/skills/matplotlib.svg" alt="Matploltlib">
         <div class="title">Matplotlib</div>
     </div>
     <div>
-        <img class="logo" src="/portfolio-website/skills/powerbi.png" alt="PowerBI">
-        <div class="title">PowerBI</div>
+        <img class="logo" src="/portfolio-website/skills/VBA.png" alt="Virtual Basic">
+        <div class="title">Virtual Basic</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/ACCES.png" alt="ACCES">
+        <div class="title">ACCES</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/HTML_logo.png" alt="HTML">
+        <div class="title">HTML</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/CSS.png" alt="CSS">
+        <div class="title">CSS</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/DAX.jpg" alt="DAX">
+        <div class="title">DAX</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/tableau desktop.png" alt="Tableau Desktop">
+        <div class="title">Tableau Desktop</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/Matlab.png" alt="Matlab">
+        <div class="title">Matlab</div>
     </div>
 </div>
 
@@ -107,16 +123,31 @@ description: "logos of skills and else."
         <div class="title">Git</div>
     </div>  
     <div>
-        <img class="logo" src="/portfolio-website/skills/docker.svg" alt="Docker">
-        <div class="title">Docker</div>
+        <img class="logo" src="/portfolio-website/skills/VScode.png" alt="VSCode">
+        <div class="title">VSCode</div>
     </div>
     <div>
         <img class="logo" src="/portfolio-website/skills/jupyter.svg" alt="Jupyter">
         <div class="title">Jupyter</div>
     </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/Spyder.png" alt="Spyder">
+        <div class="title">Spyder</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/R studio.png" alt="R studio">
+        <div class="title">R studio</div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/excel.png" alt="Excel">
+        <div class="title">Excel</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/powerbi.png" alt="PowerBI">
+        <div class="title">PowerBI</div>
+    </div>
 </div>
 
-### Personal
+### Personnal Activities
 
 <div>
 
@@ -144,11 +175,19 @@ description: "logos of skills and else."
 
 <div id="skills-grid">
     <div>
-        <img class="logo" src="/portfolio-website/skills/chess.png" alt="Chess">
-        <div class="title">Chess</div>
+        <img class="logo" src="/portfolio-website/skills/plongée.png" alt="scuba diving">
+        <div class="title">scuba diving</div>
     </div>  
     <div>
-        <img class="logo" src="/portfolio-website/skills/running.png" alt="Running">
-        <div class="title">Running</div>
+        <img class="logo" src="/portfolio-website/skills/SGDF.png" alt="scouting">
+        <div class="title">scouting</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/SKI.png" alt="Skiing">
+        <div class="title">Skiing</div>
+    </div>
+    <div>
+        <img class="logo" src="/portfolio-website/skills/APNEE.png" alt="apnea">
+        <div class="title">apnea</div>
     </div>
 </div>

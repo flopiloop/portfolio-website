@@ -5,7 +5,7 @@ order: 2
 show_date: false
 url: /en/lego-collector/
 tags: []
-author: "Yanis Stentzel, Jonathan Wild, Alix Cartal / Academic Project @IUT2 Grenoble"
+author: "Jonathan Wild, Yanis Stentzel, Alix Cartal / Academic Project @IUT2 Grenoble"
 summary: "A Python-based application that interfaces with the Brickset API to manage LEGO collections. The tool allows users to query sets, manage personal collections through a terminal interface, and automatically generate a structured web gallery of their sets."
 cover:
     image: "projects/brickset.png"
@@ -18,7 +18,7 @@ cover:
 
 ##### Abstract
 
-This academic project, developed in collaboration with **[Jonathan Wild](https://www.linkedin.com/in/jonathan-wild-b7986434a/)** and **[Alix Cartal](https://www.linkedin.com/in/alix-cartal-18333534b/)**, aims to bridge the gap between external database management and automated web publishing. The application performs three core functions:
+This academic project, developed in collaboration with **[Yanis stentzel](https://www.linkedin.com/in/yanis-stentzel/)** and **[Alix Cartal](https://www.linkedin.com/in/alix-cartal-18333534b/)**, aims to bridge the gap between external database management and automated web publishing. The application performs three core functions:
 1. **API Integration**: Real-time data retrieval from the Brickset database, handling authentication and complex queries (series, year, or set ID).
 2. **Collection Management**: A robust terminal-based interface allowing users to add, remove, and track LEGO sets within a local database.
 3. **Automated Rendering**: Dynamic generation of HTML/CSS web pages to visualize the collection, including high-resolution imagery and technical specifications for each set.
