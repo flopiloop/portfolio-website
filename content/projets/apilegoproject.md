@@ -6,6 +6,7 @@ show_date: false
 url: /lego-collector/
 aliases:
     - /lego.html
+tags: ["API", "Python", "Brickset", "HTML", "CSS", "Javascript"]
 tags: []
 author: "Jonathan Wild, Yanis Stentzel, Alix Cartal / Projet Académique @IUT2 Grenoble"
 summary: "Application Python interfacée avec l'API Brickset pour gérer des collections LEGO. L'outil permet d'interroger des sets, de gérer des collections personnelles via une interface terminal, et de générer automatiquement une galerie web structurée des sets."

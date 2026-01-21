@@ -6,7 +6,7 @@ show_date: false
 url: /rubiks-cube/
 aliases:
     - /rubikscube.html
-tags: []
+tags: ["Rubiks", "HTML", "CSS", "Javascript"]
 author: "Jonathan Wild, Projet Académique @IUT2 Grenoble"
 summary: "Plateforme web d'entraînement pour maîtriser le Rubik's Cube avec la méthode Fridrich. Comprend un simulateur 2D interactif pour pratiquer les techniques de résolution et un guide de référence complet des 78 algorithmes OLL et PLL."
 cover:

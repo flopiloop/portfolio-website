@@ -4,7 +4,7 @@ date: 2025-11-15
 order: 2
 show_date: false
 url: /en/lego-collector/
-tags: []
+tags: ["API", "Python", "Brickset", "HTML", "CSS", "Javascript"]
 author: "Jonathan Wild, Yanis Stentzel, Alix Cartal / Academic Project @IUT2 Grenoble"
 summary: "A Python-based application that interfaces with the Brickset API to manage LEGO collections. The tool allows users to query sets, manage personal collections through a terminal interface, and automatically generate a structured web gallery of their sets."
 cover:

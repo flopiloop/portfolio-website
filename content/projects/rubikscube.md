@@ -4,7 +4,7 @@ date: 2025-12-01
 order: 1
 show_date: false
 url: /en/rubiks-cube/
-tags: []
+tags: ["Rubiks", "HTML", "CSS", "Javascript"]
 author: "Jonathan Wild, Academic Project @IUT2 Grenoble"
 summary: "A comprehensive web-based training platform for mastering the Rubik's Cube using the Fridrich method. Features a 2D interactive simulator for practicing solving techniques and a complete reference guide for all 78 OLL and PLL algorithms."
 cover:
