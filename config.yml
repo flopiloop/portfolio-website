@@ -11,12 +11,18 @@ taxonomies:
 
 menu:
     main:
-        - name: Compétences
-          url: Compétences/
-          weight: 5 
         - name: Projets
           url: projets/
           weight: 2
+        - name: Projects
+          url: projects/
+          weight: 3
+        - name: Compétences
+          url: competences/
+          weight: 4
+        - name: Skills
+          url: skills/
+          weight: 5
  
 
 params:
@@ -54,10 +60,14 @@ params:
               url: "CV(FR).pdf"
             - name: "CV (EN)"
               url: "CV(ENG).pdf"
-            - name: Projets / Projects
+            - name: Projets
               url: "projets/"
-            - name: Compétences / Skills
+            - name: Projects
+              url: "projects/"
+            - name: Compétences
               url: "competences/"
+            - name: Skills
+              url: "skills/"
 
 
     socialIcons:
