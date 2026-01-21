@@ -31,6 +31,8 @@ description: "logos de compétences et autres."
         margin-left: auto;
         margin-right: auto;
         width: 85%;
+        height: 80px;
+        object-fit: contain;
     }
 </style>
 
@@ -114,6 +116,8 @@ description: "logos de compétences et autres."
         margin-left: auto;
         margin-right: auto;
         width: 85%;
+        height: 80px;
+        object-fit: contain;
     }
 </style>
 
@@ -173,6 +177,8 @@ description: "logos de compétences et autres."
         margin-left: auto;
         margin-right: auto;
         width: 85%;
+        height: 80px;
+        object-fit: contain;
     }
 </style>
 
