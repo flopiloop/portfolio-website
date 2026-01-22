@@ -38,19 +38,23 @@
 }
 
 .buttons {
-    flex-wrap: wrap;
-    gap: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .button {
     background: var(--entry);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    margin: 4px 8px 4px 0px;
+    margin: 0;
     padding: 10px 16px;
     font-weight: 500;
     transition: var(--transition);
     box-shadow: var(--shadow-sm);
+    white-space: nowrap;
 }
 
 .button-inner {
@@ -63,4 +67,11 @@
     border-color: var(--primary);
     transform: translateY(-1px);
     box-shadow: var(--shadow);
+}
+
+/* Responsive: permettre le wrap sur petits écrans */
+@media (max-width: 768px) {
+    .buttons {
+        flex-wrap: wrap;
+    }
 }
