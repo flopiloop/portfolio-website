@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo config:*)",
+      "Bash(hugo:*)",
+      "Bash(where:*)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\jonat\\OneDrive\\Bureau\\VCOD2-WILD\\portfolio-website\\layouts\\partials"
+    ]
+  }
+}

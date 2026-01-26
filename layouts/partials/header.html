@@ -39,6 +39,14 @@
 </script>
 {{- end }}
 
+<!-- Apply saved language preference -->
+<script>
+    (function() {
+        var savedLang = localStorage.getItem('site-lang') || 'fr';
+        document.documentElement.setAttribute('data-lang', savedLang);
+    })();
+</script>
+
 <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -127,7 +135,14 @@
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
-            <li>
+            {{- /* Determine language class based on menu item name */}}
+            {{- $langClass := "" }}
+            {{- if or (eq .Name "Projets") (eq .Name "Compétences") }}
+                {{- $langClass = "lang-fr" }}
+            {{- else if or (eq .Name "Projects") (eq .Name "Skills") }}
+                {{- $langClass = "lang-en" }}
+            {{- end }}
+            <li class="{{ $langClass }}">
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>

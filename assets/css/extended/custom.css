@@ -439,3 +439,309 @@ a:not(.button):not(.social-icons a):hover {
     border-color: var(--darkcolor);
     background: rgba(59, 130, 246, 0.1);
 }
+
+/* ============================================
+   LANGUAGE TOGGLE SYSTEM
+   ============================================ */
+
+/* Language toggle container */
+.lang-toggle-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    animation: fadeInUp 0.6s ease-out 0.4s both;
+}
+
+/* Language toggle button */
+.lang-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: var(--code-bg);
+    border: 2px solid var(--border);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.lang-toggle:hover {
+    border-color: var(--darkcolor);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.lang-option {
+    padding: 4px 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: var(--secondary);
+}
+
+.lang-option.active {
+    background: var(--darkcolor);
+    color: white;
+}
+
+.lang-separator {
+    color: var(--tertiary);
+    font-weight: 300;
+}
+
+/* Hide elements based on language selection */
+html[data-lang="fr"] .lang-en,
+html[data-lang="en"] .lang-fr {
+    display: none !important;
+}
+
+/* Ensure proper display when language matches */
+html[data-lang="fr"] .lang-fr,
+html[data-lang="en"] .lang-en {
+    display: inline-flex !important;
+}
+
+/* Menu items language visibility */
+#menu li.lang-fr,
+#menu li.lang-en {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+html[data-lang="fr"] #menu li.lang-en,
+html[data-lang="en"] #menu li.lang-fr {
+    display: none !important;
+}
+
+/* Buttons language visibility with animation */
+.buttons .button.lang-fr,
+.buttons .button.lang-en {
+    transition: all 0.3s ease;
+}
+
+html[data-lang="fr"] .buttons .button.lang-en,
+html[data-lang="en"] .buttons .button.lang-fr {
+    display: none !important;
+}
+
+/* Dark mode adjustments for lang toggle */
+.dark .lang-toggle {
+    background: rgba(30, 41, 59, 0.8);
+    border-color: var(--border);
+}
+
+.dark .lang-toggle:hover {
+    border-color: var(--darkcolor);
+    background: rgba(30, 41, 59, 1);
+}
+
+.dark .lang-option.active {
+    background: var(--darkcolor);
+    color: white;
+}
+
+/* ============================================
+   CARTES DE PROJETS AMELIOREES
+   ============================================ */
+
+/* Conteneur de la liste des projets */
+.posts-group {
+    display: grid;
+    gap: 24px;
+}
+
+/* Cartes de projets avec plus de contraste */
+.post-entry {
+    background: var(--theme);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow:
+        0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06),
+        0 0 0 1px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid var(--darkcolor);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.post-entry:hover {
+    box-shadow:
+        0 20px 25px -5px rgba(0, 0, 0, 0.15),
+        0 10px 10px -5px rgba(0, 0, 0, 0.08),
+        0 0 0 1px var(--darkcolor);
+    transform: translateY(-8px) scale(1.02);
+    border-left-width: 8px;
+}
+
+/* Image de couverture amelioree */
+.post-entry .entry-cover {
+    position: relative;
+    overflow: hidden;
+}
+
+.post-entry .entry-cover img {
+    transition: transform 0.5s ease, filter 0.3s ease;
+}
+
+.post-entry:hover .entry-cover img {
+    transform: scale(1.08);
+    filter: brightness(1.05);
+}
+
+/* Overlay gradient sur l'image */
+.post-entry .entry-cover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    background: linear-gradient(to top, rgba(0,0,0,0.4), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.post-entry:hover .entry-cover::after {
+    opacity: 1;
+}
+
+/* Contenu de la carte */
+.post-entry .entry-header {
+    padding: 20px 24px;
+}
+
+.post-entry .entry-header h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Texte de description */
+.post-entry .entry-content {
+    padding: 0 24px 20px;
+    color: var(--secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Tags des projets */
+.post-entry .post-tags {
+    padding: 0 24px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.post-entry .post-tags a {
+    background: linear-gradient(135deg, var(--code-bg), var(--tertiary));
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--secondary);
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.post-entry .post-tags a:hover {
+    background: var(--darkcolor);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Mode sombre - Cartes de projets */
+.dark .post-entry {
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+    box-shadow:
+        0 4px 6px -1px rgba(0, 0, 0, 0.3),
+        0 2px 4px -1px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    border-left-color: #3b82f6;
+}
+
+.dark .post-entry:hover {
+    box-shadow:
+        0 20px 25px -5px rgba(0, 0, 0, 0.4),
+        0 10px 10px -5px rgba(0, 0, 0, 0.3),
+        0 0 30px rgba(59, 130, 246, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.dark .post-entry .post-tags a {
+    background: linear-gradient(135deg, #1e293b, #334155);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .post-entry .post-tags a:hover {
+    background: #3b82f6;
+    border-color: #3b82f6;
+}
+
+/* Animation d'apparition des cartes */
+.post-entry {
+    opacity: 0;
+    animation: cardAppear 0.6s ease-out forwards;
+}
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.post-entry:nth-child(1) { animation-delay: 0.1s; }
+.post-entry:nth-child(2) { animation-delay: 0.2s; }
+.post-entry:nth-child(3) { animation-delay: 0.3s; }
+.post-entry:nth-child(4) { animation-delay: 0.4s; }
+.post-entry:nth-child(5) { animation-delay: 0.5s; }
+.post-entry:nth-child(6) { animation-delay: 0.6s; }
+.post-entry:nth-child(7) { animation-delay: 0.7s; }
+.post-entry:nth-child(8) { animation-delay: 0.8s; }
+
+/* Indicateur visuel sur le bord gauche */
+.post-entry::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    background: linear-gradient(180deg, var(--darkcolor), var(--primary));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.post-entry:hover::before {
+    opacity: 1;
+}
+
+/* Style pour la page de liste de projets */
+.list {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Titre de la page projets */
+.list .page-header h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.list .page-header h1::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--darkcolor), var(--primary));
+    margin: 16px auto 0;
+    border-radius: 2px;
+}
