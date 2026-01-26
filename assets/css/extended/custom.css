@@ -475,13 +475,15 @@ a:not(.button):not(.social-icons a):hover {
    LANGUAGE TOGGLE SYSTEM
    ============================================ */
 
-/* Language toggle container - Top right positioning */
+/* Language toggle container - Top right positioning on homepage */
 .lang-toggle-container {
     position: fixed;
     top: 20px;
     right: 20px;
     z-index: 100;
-    animation: fadeInDown 0.6s ease-out both;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Language toggle button */
@@ -502,7 +504,6 @@ a:not(.button):not(.social-icons a):hover {
 
 .lang-option {
     color: var(--accent);
-    text-decoration: none;
     padding: 2px 4px;
     border-radius: 3px;
     transition: all 0.3s ease;
@@ -513,12 +514,9 @@ a:not(.button):not(.social-icons a):hover {
     background-color: var(--code-bg);
 }
 
-.lang-current {
-    color: var(--darkcolor);
-}
-
 .lang-separator {
     color: var(--border);
+    font-weight: 300;
 }
 
 /* Hide elements based on language selection */
@@ -567,10 +565,6 @@ html[data-lang="en"] .buttons .button.lang-fr {
 .dark .lang-option:hover {
     color: var(--darkcolor);
     background-color: var(--code-bg);
-}
-
-.dark .lang-current {
-    color: var(--darkcolor);
 }
 
 /* ============================================

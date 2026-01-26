@@ -36,20 +36,11 @@
 
         <!-- Language Toggle -->
         <div class="lang-toggle-container">
-            {{- $currentPath := .RelPermalink }}
-            {{- if strings.HasPrefix $currentPath "/en/" }}
-            <div class="lang-toggle">
-                <a href="{{ strings.TrimPrefix "/en/" $currentPath }}" class="lang-option" title="Passer au Français">FRANCAIS</a>
+            <button id="lang-toggle" class="lang-toggle" title="Changer de langue / Change language">
+                <span class="lang-option" data-lang="fr">FR</span>
                 <span class="lang-separator">|</span>
-                <span class="lang-current">ENGLISH</span>
-            </div>
-            {{- else }}
-            <div class="lang-toggle">
-                <span class="lang-current">FRANCAIS</span>
-                <span class="lang-separator">|</span>
-                <a href="/en{{ $currentPath }}" class="lang-option" title="Switch to English">ENGLISH</a>
-            </div>
-            {{- end }}
+                <span class="lang-option" data-lang="en">EN</span>
+            </button>
         </div>
 
         {{- with .buttons }}
