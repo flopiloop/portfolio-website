@@ -2,6 +2,19 @@ baseURL: "https://flopiloop.github.io/portfolio-website/"
 title: Jonathan WILD
 theme: PaperMod
 
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: false
+
+languages:
+  fr:
+    languageName: "Français"
+    weight: 1
+  en:
+    languageName: "English"
+    weight: 2
+    languageCode: en
+    contentDir: content/projects
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 

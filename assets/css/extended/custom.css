@@ -1,3 +1,42 @@
+/* Language Switcher Styles */
+.logo-switches {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 16px;
+    margin-right: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.lang-switcher .lang-btn {
+    color: var(--accent);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.lang-switcher .lang-btn:hover {
+    color: var(--darkcolor);
+    background-color: var(--code-bg);
+}
+
+.lang-switcher .lang-current {
+    color: var(--darkcolor);
+}
+
+.lang-switcher .lang-separator {
+    color: var(--border);
+}
+
 /* Cible l'image du mode profil */
 .profile_inner img {
     width: 200px !important;

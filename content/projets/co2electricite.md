@@ -8,7 +8,7 @@ tags: ["R", "Tableau", "Analyse de donnees", "Datavisualisation", "Statistiques"
 author: "Jonathan Wild, Marius Delavoet / Projet Academique @IUT2 Grenoble"
 summary: "Etude approfondie de l'intensite carbone du mix electrique de 7 pays (France, Allemagne, Pologne, Norvege, Inde, Bresil, USA) entre 2021 et 2024. Analyse statistique, modelisation et datavisualisation avec R et Tableau."
 cover:
-    image: "projects/Graphique.png"
+    image: "projects/Capture d'écran 2026-01-26 183429.png"
     alt: "Analyse CO2 Electricite"
     relative: false
 
@@ -46,6 +46,14 @@ Ce projet de SAE 2.06, realise en collaboration avec **Marius Delavoet**, porte 
 - Modelisation par regression lineaire et quadratique
 - Identification des pays atypiques (analyse des residus)
 
+**Importance de R dans ce projet :**
+Le langage R a ete instrumental pour conduire des analyses statistiques rigoureuses et generer des visualisations de qualite publication. En utilisant des packages comme `ggplot2`, `dplyr` et `tidyr`, nous avons pu :
+- Realiser un nettoyage et une exploration exhaustive des donnees (EDA)
+- Construire des modeles predictifs par regression et valider leurs hypotheses
+- Creer des pipelines d'analyse reproductibles pour la transparence
+- Generer des rapports automatises integrant code, visualisations et interpretations
+- Effectuer des tests statistiques pour valider les hypotheses sur les variations d'intensite carbone
+
 ---
 
 ##### Resultats Cles
@@ -64,6 +72,24 @@ Ce projet de SAE 2.06, realise en collaboration avec **Marius Delavoet**, porte 
 - Forte correlation negative entre part Low Carbon et intensite carbone (r = -0.96)
 - Saisonnalite marquee en Europe (hausse hivernale liee au chauffage)
 - Impact du cloud : une seule instance serveur peut emettre autant qu'une trentaine de foyers francais
+
+---
+
+##### Visualisations et Resultats d'Analyse
+
+Le projet inclut des visualisations exhaustives et des syntheses statistiques detaillees dans le rapport complet :
+
+> **Distributions Statistiques et Correlations**
+> 
+> L'analyse revele des motifs specifiques a chaque pays dans l'intensite carbone, avec des graphiques de distribution detailles montrant la variance au sein de chaque nation et dans le temps.
+
+> **Evolution Temporelle**
+> 
+> Les motifs saisonniers demontrent l'impact des conditions meteo et des variations de demande sur l'intensite carbone, particulierement dans les pays europeens pendant les mois d'hiver.
+
+> **Modeles de Regression**
+> 
+> Les modeles predictifs developpes par analyse R montrent la relation entre la part d'energie renouvelable et l'intensite carbone globale, permettant la prevision des tendances futures.
 
 ---
 
@@ -89,7 +115,7 @@ L'origine de l'electricite est aussi importante que la quantite consommee.
 
 ##### Document Complet
 
-+ [Rapport final du projet (PDF)](/portfolio-website/Rapport_final_SAE_Indicateurs_de_performance.pdf)
++ [Rapport final du projet (PDF)](/portfolio-website/Rapport_final_SAE_2.06_CO2.pdf)
 
 ---
 

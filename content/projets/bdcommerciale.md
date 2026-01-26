@@ -8,7 +8,7 @@ tags: ["SQL", "Base de donnees", "MySQL", "Excel", "Analyse de donnees"]
 author: "Jonathan Wild, Alix Cartal / Projet Academique @IUT2 Grenoble"
 summary: "Projet de conception et d'exploitation d'une base de donnees commerciale. Developpement de requetes SQL complexes pour l'analyse des commandes, clients et tarifs, avec generation de rapports et visualisations."
 cover:
-    image: "projects/ETL.png"
+    image: "projects/mysql-datascientest.png"
     alt: "Base de Donnees Commerciale"
     relative: false
 
@@ -26,7 +26,17 @@ Le projet se decompose en trois axes principaux :
 
 2. **Requetes SQL avancees** : Developpement de requetes complexes incluant des jointures multiples, sous-requetes correlees et fonctions d'agregation pour extraire des indicateurs commerciaux.
 
-3. **Analyse et reporting** : Generation de rapports d'analyse des ventes par client, par periode et par produit.
+3. **Analyse et reporting** : Generation de rapports d'analyse des ventes par client, par periode et par produit, avec donnees importees dans Excel pour une intelligence metier exhaustive.
+
+---
+
+##### Flux de Travail : De MySQL a Excel
+
+L'approche complete du projet a implique l'extraction de donnees depuis la base de donnees MySQL et leur importation dans Excel pour une analyse et une visualisation detaillees. Cette approche nous a permis :
+- De tirer parti de SQL pour des extractions et transformations de donnees puissantes
+- D'utiliser les outils natifs d'Excel pour les tableaux crises, graphiques et analyses ad hoc
+- De creer des rapports dynamiques facilement comprehensibles par les parties prenantes
+- De demontrer le pont entre les systemes de base de donnees et les outils d'analyse metier
 
 ---
 
@@ -53,6 +63,27 @@ FROM COMMANDES, DETAILCOMMANDES
 WHERE DETAILCOMMANDES.RefCmd = COMMANDES.NumCmd
 GROUP BY JOUR, MOIS;
 ```
+
+---
+
+##### Livrables du Projet - Soumission en Trois Phases
+
+Le projet a ete remis en trois phases, adressant chacune des exigences metier specifiques :
+
+> **Phase 1 : Analyse Initiale**
+>
+> ![Fiche de requetes FR1](/portfolio-website/projects/FR1.png)
+> *Premier ensemble de requetes metier analysant les commandes clients et metriques de base.*
+
+> **Phase 2 : Requetes Avancees**
+>
+> ![Fiche de requetes FR2](/portfolio-website/projects/FR2.png)
+> *Deuxieme phase concentree sur les motifs temporels et tendances saisonnieres des donnees de ventes.*
+
+> **Phase 3 : Reporting Exhaustif**
+>
+> ![Fiche de requetes FR3](/portfolio-website/projects/FR3.png)
+> *Phase finale presentant l'analyse integree et les indicateurs de performance pour la prise de decision metier.*
 
 ---
 
