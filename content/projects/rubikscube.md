@@ -8,7 +8,7 @@ tags: ["Rubiks", "HTML", "CSS", "Javascript"]
 author: "Jonathan Wild, Academic Project @IUT2 Grenoble"
 summary: "A comprehensive web-based training platform for mastering the Rubik's Cube using the Fridrich method. Features a 2D interactive simulator for practicing solving techniques and a complete reference guide for all 78 OLL and PLL algorithms."
 cover:
-    image: "projects/rubikscube.png"
+    image: "projects/rubik.jpg"
     alt: "Rubik's Cube Simulator"
     relative: false
 

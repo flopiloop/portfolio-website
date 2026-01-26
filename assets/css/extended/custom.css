@@ -353,6 +353,37 @@ a:not(.button):not(.social-icons a):hover {
     background-clip: padding-box, border-box;
 }
 
+/* Alignement du header - logo, nom et bouton theme */
+.header .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header .logo a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header .logo-switches {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Séparateur décoratif après le profil */
 .profile_inner::after {
     content: '';
@@ -726,6 +757,49 @@ html[data-lang="en"] .buttons .button.lang-fr {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+    position: relative;
+}
+
+/* Fond décoratif pour la page de liste des projets */
+body:has(.list) {
+    background:
+        radial-gradient(ellipse at 20% 20%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(59, 130, 246, 0.05) 0%, transparent 70%),
+        var(--theme);
+}
+
+/* Motif de points subtil en arrière-plan */
+.list::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(circle at 1px 1px, var(--tertiary) 1px, transparent 0);
+    background-size: 40px 40px;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Lueur décorative derrière les cartes */
+.posts-group {
+    position: relative;
+}
+
+.posts-group::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 60%;
+    background: radial-gradient(ellipse, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: -1;
 }
 
 /* Titre de la page projets */
@@ -744,4 +818,112 @@ html[data-lang="en"] .buttons .button.lang-fr {
     background: linear-gradient(90deg, var(--darkcolor), var(--primary));
     margin: 16px auto 0;
     border-radius: 2px;
+}
+
+/* ============================================
+   PAGE DE LECTURE D'UN PROJET - THEME JOUR
+   ============================================ */
+
+/* Fond dégradé accentué pour la page article (thème jour) */
+.post-single {
+    position: relative;
+}
+
+body:has(.post-single) {
+    background:
+        linear-gradient(180deg, rgba(99, 102, 241, 0.06) 0%, transparent 30%),
+        linear-gradient(180deg, transparent 70%, rgba(139, 92, 246, 0.06) 100%),
+        radial-gradient(ellipse at 0% 0%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 100% 100%, rgba(168, 85, 247, 0.08) 0%, transparent 50%),
+        var(--theme);
+}
+
+/* Contenu de l'article avec fond légèrement contrasté */
+.post-single .post-content {
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.7) 0%,
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0.7) 100%);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.05),
+        inset 0 0 0 1px rgba(99, 102, 241, 0.1);
+    margin-top: 20px;
+}
+
+/* Header de l'article avec dégradé */
+.post-single .post-header {
+    background: linear-gradient(135deg,
+        rgba(99, 102, 241, 0.08) 0%,
+        rgba(139, 92, 246, 0.05) 50%,
+        rgba(168, 85, 247, 0.08) 100%);
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    border-left: 5px solid var(--darkcolor);
+}
+
+/* Barre latérale décorative */
+.post-single .post-content::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg,
+        var(--darkcolor) 0%,
+        var(--primary) 50%,
+        var(--darkcolor) 100%);
+    border-radius: 3px;
+    opacity: 0.5;
+}
+
+/* ============================================
+   PAGE DE LECTURE - THEME SOMBRE
+   ============================================ */
+
+.dark body:has(.list) {
+    background:
+        radial-gradient(ellipse at 20% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+        linear-gradient(180deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+}
+
+.dark .list::before {
+    background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.1) 1px, transparent 0);
+    opacity: 0.2;
+}
+
+.dark body:has(.post-single) {
+    background:
+        linear-gradient(180deg, rgba(59, 130, 246, 0.08) 0%, transparent 30%),
+        linear-gradient(180deg, transparent 70%, rgba(139, 92, 246, 0.08) 100%),
+        radial-gradient(ellipse at 0% 0%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 100% 100%, rgba(168, 85, 247, 0.1) 0%, transparent 50%),
+        linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+}
+
+.dark .post-single .post-content {
+    background: linear-gradient(180deg,
+        rgba(30, 41, 59, 0.8) 0%,
+        rgba(15, 23, 42, 0.9) 50%,
+        rgba(30, 41, 59, 0.8) 100%);
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05),
+        inset 0 0 0 1px rgba(59, 130, 246, 0.2);
+}
+
+.dark .post-single .post-header {
+    background: linear-gradient(135deg,
+        rgba(59, 130, 246, 0.15) 0%,
+        rgba(139, 92, 246, 0.1) 50%,
+        rgba(168, 85, 247, 0.15) 100%);
+    border-left-color: #3b82f6;
+}
+
+.dark .posts-group::after {
+    background: radial-gradient(ellipse, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
 }

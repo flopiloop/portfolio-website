@@ -8,7 +8,7 @@ tags: ["SQL", "Database", "MySQL", "Excel", "Data Analysis"]
 author: "Jonathan Wild, Alix Cartal / Academic Project @IUT2 Grenoble"
 summary: "Design and implementation of a commercial database. Development of complex SQL queries for order, customer, and pricing analysis, with report generation and data visualizations."
 cover:
-    image: "projects/ETL.png"
+    image: "projects/mysql-datascientest.png"
     alt: "Commercial Database"
     relative: false
 
@@ -26,7 +26,17 @@ The project is structured around three main areas:
 
 2. **Advanced SQL Queries**: Development of complex queries including multiple joins, correlated subqueries, and aggregation functions to extract commercial indicators.
 
-3. **Analysis and Reporting**: Generation of sales analysis reports by customer, period, and product.
+3. **Analysis and Reporting**: Generation of sales analysis reports by customer, period, and product, with data imported into Excel for comprehensive business intelligence.
+
+---
+
+##### Workflow: From MySQL to Excel Analysis
+
+The complete project workflow involved extracting data from the MySQL database and importing it into Excel for detailed analysis and visualization. This approach allowed us to:
+- Leverage SQL for powerful data extraction and transformation
+- Use Excel's native tools for pivot tables, charts, and ad-hoc analysis
+- Create dynamic reports that stakeholders could easily understand and manipulate
+- Demonstrate the bridge between database systems and business analysis tools
 
 ---
 
@@ -53,6 +63,27 @@ FROM COMMANDES, DETAILCOMMANDES
 WHERE DETAILCOMMANDES.RefCmd = COMMANDES.NumCmd
 GROUP BY DAY, MONTH;
 ```
+
+---
+
+##### Project Deliverables - Three-Part Submission
+
+The project was delivered in three phases, each addressing specific business requirements:
+
+> **Phase 1: Initial Analysis**
+>
+> ![Query Sheet FR1](/portfolio-website/projects/FR1.png)
+> *First set of business queries analyzing customer orders and basic metrics.*
+
+> **Phase 2: Advanced Queries**
+>
+> ![Query Sheet FR2](/portfolio-website/projects/FR2.png)
+> *Second phase focusing on temporal patterns and seasonal trends in sales data.*
+
+> **Phase 3: Comprehensive Reporting**
+>
+> ![Query Sheet FR3](/portfolio-website/projects/FR3.png)
+> *Final phase presenting integrated analysis and performance indicators for business decision-making.*
 
 ---
 

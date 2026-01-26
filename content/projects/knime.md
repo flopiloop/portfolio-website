@@ -10,7 +10,7 @@ tags: ["KNIME", "MySQL", "ETL", "Business Intelligence"]
 author: "Jonathan Wild, Yanis Stentzel / Academic Project @IUT2 Grenoble"
 summary: "Implementation of a data warehouse (ROLAP) for financial decision support, using KNIME for ETL processes and MySQL for structured storage."
 cover:
-    image: "projects/ETL-Front.png"
+    image: "projects/image.png"
     alt: "Data Warehouse"
     relative: false
 

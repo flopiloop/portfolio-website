@@ -8,7 +8,7 @@ tags: ["R", "Tableau", "Data Analysis", "Datavisualisation", "Statistics", "Envi
 author: "Jonathan Wild, Marius Delavoet / Academic Project @IUT2 Grenoble"
 summary: "In-depth study of the carbon intensity of the electricity mix in 7 countries (France, Germany, Poland, Norway, India, Brazil, USA) between 2021 and 2024. Statistical analysis, modeling, and data visualization with R and Tableau."
 cover:
-    image: "projects/Graphique.png"
+    image: "projects/Capture d'écran 2026-01-26 183429.png"
     alt: "Electricity CO2 Analysis"
     relative: false
 
@@ -46,6 +46,14 @@ This SAE 2.06 project, developed in collaboration with **Marius Delavoet**, focu
 - Linear and quadratic regression modeling
 - Identification of outlier countries (residual analysis)
 
+**Importance of R in this project:**
+The R language was instrumental in conducting rigorous statistical analyses and generating publication-quality visualizations. Using packages like `ggplot2`, `dplyr`, and `tidyr`, we were able to:
+- Perform comprehensive data wrangling and exploratory data analysis (EDA)
+- Build predictive regression models and validate their assumptions
+- Create replicable analysis pipelines for data transparency
+- Generate automated reports integrating code, visualizations, and interpretations
+- Perform statistical testing to validate hypotheses about carbon intensity variations
+
 ---
 
 ##### Key Results
@@ -64,6 +72,24 @@ This SAE 2.06 project, developed in collaboration with **Marius Delavoet**, focu
 - Strong negative correlation between Low Carbon share and carbon intensity (r = -0.96)
 - Marked seasonality in Europe (winter increase linked to heating)
 - Cloud impact: a single server instance can emit as much as thirty French households
+
+---
+
+##### Data Visualization and Analysis Results
+
+The project includes comprehensive visualizations and statistical summaries detailed in the full report:
+
+> **Statistical Distributions and Correlations**
+> 
+> The analysis reveals country-specific patterns in carbon intensity, with detailed distribution plots showing the variance within each nation and across time periods.
+
+> **Temporal Evolution**
+> 
+> Seasonal patterns demonstrate the impact of weather conditions and demand variations on carbon intensity, particularly in European countries during winter months.
+
+> **Regression Models**
+> 
+> Predictive models developed through R analysis show the relationship between renewable energy share and overall carbon intensity, enabling forecasting of future trends.
 
 ---
 
@@ -89,7 +115,7 @@ The origin of electricity is as important as the amount consumed.
 
 ##### Full Report
 
-+ [Full project report (PDF, in French)](/portfolio-website/Rapport_final_SAE_Indicateurs_de_performance.pdf)
++ [Full project report (PDF, in French)](/portfolio-website/Rapport_final_SAE_2.06_CO2.pdf)
 
 ---
 
