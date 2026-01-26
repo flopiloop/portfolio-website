@@ -1,42 +1,3 @@
-/* Language Switcher Styles */
-.logo-switches {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.lang-switcher {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-left: 16px;
-    margin-right: 0;
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-}
-
-.lang-switcher .lang-btn {
-    color: var(--accent);
-    text-decoration: none;
-    cursor: pointer;
-    padding: 2px 4px;
-    border-radius: 3px;
-    transition: all 0.3s ease;
-}
-
-.lang-switcher .lang-btn:hover {
-    color: var(--darkcolor);
-    background-color: var(--code-bg);
-}
-
-.lang-switcher .lang-current {
-    color: var(--darkcolor);
-}
-
-.lang-switcher .lang-separator {
-    color: var(--border);
-}
-
 /* Cible l'image du mode profil */
 .profile_inner img {
     width: 200px !important;
@@ -514,12 +475,13 @@ a:not(.button):not(.social-icons a):hover {
    LANGUAGE TOGGLE SYSTEM
    ============================================ */
 
-/* Language toggle container */
+/* Language toggle container - Top right positioning */
 .lang-toggle-container {
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    animation: fadeInUp 0.6s ease-out 0.4s both;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    animation: fadeInDown 0.6s ease-out both;
 }
 
 /* Language toggle button */
@@ -527,38 +489,36 @@ a:not(.button):not(.social-icons a):hover {
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 10px 20px;
-    background: var(--code-bg);
-    border: 2px solid var(--border);
-    border-radius: 30px;
+    padding: 8px 16px;
+    background: transparent;
+    border: none;
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: 600;
     transition: all 0.3s ease;
     font-family: inherit;
-}
-
-.lang-toggle:hover {
-    border-color: var(--darkcolor);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.5px;
 }
 
 .lang-option {
-    padding: 4px 10px;
-    border-radius: 15px;
+    color: var(--accent);
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 3px;
     transition: all 0.3s ease;
-    color: var(--secondary);
 }
 
-.lang-option.active {
-    background: var(--darkcolor);
-    color: white;
+.lang-option:hover {
+    color: var(--darkcolor);
+    background-color: var(--code-bg);
+}
+
+.lang-current {
+    color: var(--darkcolor);
 }
 
 .lang-separator {
-    color: var(--tertiary);
-    font-weight: 300;
+    color: var(--border);
 }
 
 /* Hide elements based on language selection */
@@ -597,18 +557,20 @@ html[data-lang="en"] .buttons .button.lang-fr {
 
 /* Dark mode adjustments for lang toggle */
 .dark .lang-toggle {
-    background: rgba(30, 41, 59, 0.8);
-    border-color: var(--border);
+    background: transparent;
 }
 
-.dark .lang-toggle:hover {
-    border-color: var(--darkcolor);
-    background: rgba(30, 41, 59, 1);
+.dark .lang-option {
+    color: var(--accent);
 }
 
-.dark .lang-option.active {
-    background: var(--darkcolor);
-    color: white;
+.dark .lang-option:hover {
+    color: var(--darkcolor);
+    background-color: var(--code-bg);
+}
+
+.dark .lang-current {
+    color: var(--darkcolor);
 }
 
 /* ============================================
