@@ -70,7 +70,7 @@ params:
           imageHeight: 220 
           buttons:
             - name: "CV (FR)"
-              url: "CV(FR).pdf"
+              url: "CV(FR)_corrigé.pdf"
             - name: "CV (EN)"
               url: "CV(ENG).pdf"
             - name: Projets
