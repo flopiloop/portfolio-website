@@ -8,7 +8,7 @@ tags: ["R", "Shiny", "Multivariate Analysis", "PCA", "Visualization", "Statistic
 author: "Jonathan Wild / Academic Project @IUT2 Grenoble"
 summary: "Development of an interactive R Shiny web application for exploring and visualizing multivariate analysis results (PCA, clustering, correlations) through a dynamic dashboard."
 cover:
-    image: "projects/Graphique.png"
+    image: "projects/rshiny-app.png"
     alt: "R Shiny multivariate analysis dashboard"
     relative: false
 

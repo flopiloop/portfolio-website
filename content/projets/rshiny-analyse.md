@@ -8,7 +8,7 @@ tags: ["R", "Shiny", "Analyse multivariée", "ACP", "Visualisation", "Statistiqu
 author: "Jonathan Wild / Projet Académique @IUT2 Grenoble"
 summary: "Développement d'une application R Shiny interactive permettant d'explorer et de visualiser les résultats d'une analyse multivariée (ACP, clustering, corrélations) à travers un dashboard dynamique."
 cover:
-    image: "projects/Graphique.png"
+    image: "projects/rshiny-app.png"
     alt: "Dashboard R Shiny analyse multivariée"
     relative: false
 

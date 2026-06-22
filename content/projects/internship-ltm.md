@@ -8,7 +8,7 @@ tags: ["Python", "NumPy", "Simulation", "Optics", "Physics", "Transfer Matrix Me
 author: "Jonathan Wild / Internship @LTM – Laboratoire des Technologies de la Microélectronique, CNRS / UGA"
 summary: "12-week internship at LTM (CNRS/UGA) under the supervision of David Peyrade. Development of a vectorized Python simulator based on the Transfer Matrix Method (TMM) to compute the reflectance of Bragg mirrors and Fabry-Pérot microcavities, approximately 2000× faster than the original implementation."
 cover:
-    image: "projects/etoile.png"
+    image: "projects/bragg-report.png"
     alt: "Optical simulation of Bragg mirrors"
     relative: false
 
