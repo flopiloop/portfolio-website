@@ -8,8 +8,8 @@ tags: ["ArcGIS", "Dashboard", "GIS", "Data Collection", "Group Project", "Urban 
 author: "Jonathan Wild, Marius Delavoet, Yanis Stentzel, Tristan Charmetant / Academic Project @IUT2 Grenoble"
 summary: "Design and deployment of a field data collection tool to survey signage degradation at tram crossings on the Grenoble university campus, with a decision-making dashboard and budget estimation."
 cover:
-    image: "projects/plan.png"
-    alt: "Grenoble campus tram map"
+    image: "projects/Decision Support System Component.png"
+    alt: "Decision Support System Component"
     relative: false
 
 ---

@@ -8,8 +8,8 @@ tags: ["ArcGIS", "Dashboard", "SIG", "Collecte de données", "Projet de groupe",
 author: "Jonathan Wild, Marius Delavoet, Yanis Stentzel, Tristan Charmetant / Projet Académique @IUT2 Grenoble"
 summary: "Conception et déploiement d'un outil de collecte terrain pour recenser les dégradations des signalisations aux croisements tramway sur le campus universitaire de Grenoble, avec dashboard décisionnel et estimation budgétaire."
 cover:
-    image: "projects/plan.png"
-    alt: "Carte campus Grenoble tramway"
+    image: "projects/Decision Support System Component.png"
+    alt: "Composant solution décisionnelle"
     relative: false
 
 ---
